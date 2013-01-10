@@ -1,18 +1,16 @@
 #########################################################
-## Newton's root approximation
-## bugs to vladimir dot kulyukin at gmail dot com
+## Newton's Square Root Approximation
+## Bugs to vladimir dot kulyukin at gmail dot com
 #########################################################
 
 import math
 
-## global variable that defines error tolerance
+## global variable that defines error tolerance level
 error_tolerance = 0.0001;
 
-def square(x):
-    return x * x
+def square(x): return x * x
 
-def average(x, y):
-    return (x + y)/2.0
+def average(x, y): return (x + y)/2.0
 
 def is_good_enough(guess, n):
     global error_tolerance
